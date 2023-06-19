@@ -1,0 +1,8 @@
+// Remove duplicates from an array
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+
+const numbers = [1, 2, 3, 4, 3, 2, 1];
+const uniqueNumbers = removeDuplicates(numbers);
+console.log(uniqueNumbers);
